@@ -84,4 +84,4 @@ class Place(BaseModel, Base):
         def amenities(self, amenity):
             """ Setter attribute for amenities in FileStorage """
             if isinstance(amenity, Amenity):
-                self.amenity_ids.append(amenity.id)
+                self.amenity_ids.append(amenity.id) 
